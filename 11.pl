@@ -1,20 +1,20 @@
-parent("Alexandr","Olya").
-parent("Masha","Olya").
-parent("Alexandr","Alina").
-parent("Masha","Alina").
-parent("Alexandr","Leha").
-parent("Masha","Leha").
-parent("Leha","Gleb").
-parent("Dasha","Gleb").
-parent("Alina","Maks").
-parent("Leha","Maks").
-man("Alexandr").
-man("Leha").
-man("Pavel").
-man("Dima").
-woman("Olya").
-woman("Alina").
-woman("Masha").
+parent("alexandr","olya").
+parent("masha","olya").
+parent("alexandr","alina").
+parent("masha","alina").
+parent("alexandr","leha").
+parent("masha","leha").
+parent("leha","gleb").
+parent("dasha","gleb").
+parent("alina","maks").
+parent("leha","maks").
+man("alexandr").
+man("leha").
+man("pavel").
+man("dima").
+woman("olya").
+woman("alina").
+woman("masha").
 
 %11.11
 father(X,Y):- parents(X,Y),man(x).
