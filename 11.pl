@@ -74,3 +74,5 @@ fib(N,X):- N1 is N-1,N2 is N-2, fib(N1,X1),fib(N2,X2), X is X1+X2.
 fib_d(N,X):- fib_d(N,X,1,1,2),!.
 fib_d(N,F,F,_,N):- !.
 fib_d(N,X,A,B,C):- A1 is A+B, C1 is C+1,fib_d(N,X,A1,A,C1).
+
+macheha(X,Y):-parent(Z,Y),man(Z),parent(Z,K),not(K=Y),parent(X,K),woman(X),!.
